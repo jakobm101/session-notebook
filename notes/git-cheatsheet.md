@@ -13,10 +13,16 @@ git status
 ## git initialization
 git add .
 	gaa
+
 git commit -m 'message'
 	gcmsg
+
+(add the Upstream thing)
+    gpsup
+
 git push
 	gp
+
 ## Connect to Github
 gh create repo
 
@@ -27,10 +33,13 @@ git clone git:github.com/user/repo
 # Git Branches
 git switch
 	gsw
+
 git switch --create
 	gswc
+
 git merge
 	gm
+
 git branch delete
     gbd
 
